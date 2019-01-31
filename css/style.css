@@ -1,0 +1,1074 @@
+body {
+    background-color: #f7f8f7;
+}
+
+section {
+    padding-bottom: 35px;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.0) !important;
+    border: 0px;
+}
+
+.navbar-brand {
+    color: #ef824c !important;
+   font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+   display: inline-flex;
+}
+
+.navbar-header button {
+    color: #ef824c !important;
+    border: 1px solid #ef824c !important;
+}
+
+nav ul {
+     margin-top: 0 !important;
+     margin-bottom: 0 !important;
+}
+
+.navbar-brand {
+    padding: 8px 15px;
+}
+
+.navbar .navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #999;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.navbar-custom:not(.navbar-inverse) .navbar-nav li a:hover {
+    color: #ececec;
+}
+
+.navbar .navbar-nav .active a {
+    background: none;
+    color: #ef824c;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.shrink  li a:hover {
+    color: #111 !important;
+}
+
+#logo {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+#logo img {
+    width: 30px;
+    height: 31px;
+}
+
+#logo-caption .name {
+    color: #;
+    font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 0px;
+    letter-spacing: -1px;
+}
+
+#logo-caption .legend {
+    color: #;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: -3px;
+}
+
+.shrink .name {
+    color: #373737 !important;
+}
+
+.shrink .legend {
+    color: #373737 !important;
+}
+
+.bg-orange {
+    background-color: #ffa0e0;
+    height: 600px;
+}
+
+#welcome {
+    background-image: url(wallpaper1.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.shrink {
+    background-color: #fff !important;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.vcenter {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
+}
+
+ul {
+     list-style: none outside none;
+     margin-top: 10% !important;
+     margin-bottom: 10% !important;
+ }
+
+.main-header h3 {
+    font-weight: 300;
+    font-size: 1.05em;
+    letter-spacing: 3px;
+    color: #000000;
+}
+
+.main-header h1 {
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 15px;
+    color: #000000;
+}
+
+.main-header .quote {
+    font-size:1.5em;
+    font-weight: 300;
+    line-spacing: 2px;
+    color: #a0a0a0;
+}
+
+.btn-light {
+    color: #111;
+    background: #ececec;
+}
+
+.btn-light:visited {
+    color: #111;
+    background: #ececec;
+}
+
+.btn-sm {
+    padding: 6px 33px;
+    letter-spacing: 3px;
+}
+
+.scroller {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    width: 120px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(235, 235, 235, 0.5);
+}
+
+.scroller a { color: #dadada; }
+.scroller a:active { color: #dadada; }
+.scroller a:visited { color: #dadada; }
+.scroller a:hover { color: #dadada; text-decoration: none; }
+
+.see-more {
+    opacity: 0.0;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    color: #ececec;
+    letter-spacing: 2.5px;
+    letter-spacing: 2.5px;
+    font-size: 11px;
+}
+
+
+section header {
+    margin-bottom: 80px;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #111;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 2em;
+    margin-top: 5px;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: #999;
+    letter-spacing: 3px;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+
+section header {
+    margin-top: 40px;
+}
+
+.box-container {
+    text-align: center;
+    padding: 50px 40px;
+    border: 1px solid #f8f8f8;
+    background: #fff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box-container h4 {
+    margin-bottom: 25px;
+}
+
+
+/************ ABOUT SECTION ************/
+.text-about {
+    font-size: 15px !important;
+    text-transform: uppercase;
+    line-height: 24px !important;
+    letter-spacing: 2px !important;
+}
+
+.about-list {
+    font-size: 14px !important;
+    line-height: 28px !important;
+}
+
+ul.about-list li {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 7px 0;
+}
+
+ul.about-list li span {
+    min-width: 130px;
+    display: inline-block;
+    font-weight: 600 !important;
+}
+
+.avatar {
+    height: 400px;
+}
+.avatar .img-responsive {
+    margin: 0 auto;
+}
+
+/********** Skills **********/
+.bg-white {
+    background-color: #fff;
+}
+
+
+.binary-text {
+    font-size: 2em;
+    font-weight: 500;
+    color: #ef824c !important;
+    padding-right: 20px;
+}
+
+.skill-list {
+     margin-top: 0% !important;
+     margin-bottom: 10% !important;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 28px !important;
+    display: table;
+    text-transform: uppercase;
+}
+
+.skill-list li {
+    padding-bottom: 3%;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.item-list {
+    padding-bottom: 25px;
+}
+
+.separator {
+    margin: 0 auto;
+    background: url(//neitofcc.github.io/portfolio/img/separator.png) no-repeat;
+    height: 9px;
+    width: 576px;
+    padding-bottom: 80px;
+}
+
+/******* PORTFOLIO *********/
+.pf-item {
+    padding-bottom: 40px;
+    border-bottom: 0;
+}
+
+.pf-details {
+    padding: 0 25px;
+}
+
+.pf-details h2 {
+    color: #ef824c !important;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 0px;
+    text-transform: uppercase
+}
+
+.pf-details p {
+    line-height: 26px;
+}
+
+.pf-details ul {
+    padding: 0 !important;
+}
+
+.pf-details li {
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    background: #ef824c;
+    padding: 4px 9px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+.bg-gray {
+    background-color: #f0f0f0;
+    min-height: 440px;
+    padding: 60px 40px;
+}
+
+.bg-gray input, .bg-gray textarea {
+    border: 1px solid #dfdfdf;
+    letter-spacing: 1px;
+    font-size: 11px;
+    padding: 8px 15px;
+    width: 100%;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    max-width: 100%;
+    resize: none;
+}
+
+.bg-map {
+    background-color: #ef824c !important;
+    background-image: url(//neitofcc.github.io/portfolio/img/map-image.png);
+    padding: 10% 10% 0 10%;
+    min-height: 440px;
+}
+
+.bg-map ul li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 30px;
+    padding: 0 0 0 40px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.bg-map ul li span {
+    position: absolute;
+    font-size: 1.4em;
+    left: 0;
+    top: 0;
+}
+
+.required-fields {
+    font-size: 11px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.submit input {
+    background-color: #000;
+    color: #eee;
+    width: 120px;
+}
+
+.submit input:hover {
+    background-color: #eee !important;
+    color: #000 !important;
+    border-color: #000;
+}
+
+
+.social-links {
+    background-color: #111;
+    font-size: 1.35em;
+}
+
+.social-links ul {
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    padding: 0;
+}
+
+.social-links ul li {
+    display: inline-block;
+    padding-right: 35px;
+    margin-right: 35px;
+    border-right: 1px solid #777;
+}
+
+.social-links ul li:last-child {
+   border-right: 0;
+   padding-right: 35px;
+   margin-right: 0;
+}
+
+.social-links a {
+    color: #999;
+}
+
+.social-links a:hover {
+    color: #ececec !important;
+}
+
+.social-links a:visited {
+    color: #999;
+}
+
+
+.bg-darkgray {
+    background-color: #252525;
+}
+
+.copyright {
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #888888;
+    text-align: center;
+}
+
+.copyright a {
+    background-color: #252525;
+    color: #eee;
+    width: 120px;
+}
+
+.copyright a:hover {
+    background-color: #eee !important;
+    color: #000 !important;
+    border-color: #000;
+}
+
+
+@media (max-width: 690px) {
+    .main-header h1 {
+        font-size: 3em;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .pf-item {
+        padding-top: 80px;
+        border-bottom: 1px solid #e0e0e0
+    }
+
+    .pf-item .img-responsive {
+        padding-bottom: 20px;
+    }
+
+    .bg-map {
+        min-height: 360px;
+    }
+
+    .social-links ul li {
+        padding-right: 15px;
+        margin-right: 15px;
+    }
+    .social-links ul li:last-child {
+       padding-right: 15px;
+    }
+
+}
+.skills-diagram {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 35em;
+  margin: 2em auto 2em;
+}
+.skills-diagram > dd {
+  /* Hide inner attributes */
+  display: none;
+}
+.skills-diagram dt {
+  display: inline-block;
+  vertical-align: top;
+  
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  
+  -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+  
+  /* set defaults to skill-2 */
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+.skills-diagram dt:hover {
+  -webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+/* Support vertical mode */
+.skills-diagram-vertical dt {
+  display: block;
+  /* .25em is an equivalent to inline-block's horizontal whitespace margin */
+  margin: .25em auto;
+}
+
+/* Provide 10 different sizes */
+.skills-diagram .skill-2 {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  
+  background-color: rgba(201, 155, 129, .3);
+  border-color: rgba(201, 155, 129, 1);
+  color: rgba(201, 155, 129, 1);
+}
+.skills-diagram .skill-3 {
+  vertical-align: middle;
+  
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  background-color: rgba(138, 138, 140, .3);
+  border-color: rgba(138, 138, 140, 1);
+  color: rgba(138, 138, 140, 1);
+}
+.skills-diagram .skill-4 {
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  
+  background-color: rgba(234, 112, 97, .3);
+  border-color: rgba(234, 112, 97, 1);
+  color: rgba(234, 112, 97, 1);
+}
+.skills-diagram .skill-5 {
+  vertical-align: bottom;
+
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+  background-color: rgba(109, 182, 173, .3);
+  border-color: rgba(109, 182, 173, 1);
+  color: rgba(109, 182, 173, 1);
+}
+.skills-diagram .skill-6 {
+  vertical-align: top;
+  
+  width: 6em;
+  height: 6em;
+  line-height: 6em;
+  
+  background-color: rgba(195, 192, 100, .3);
+  border-color: rgba(195, 192, 100, 1);
+  color: rgba(195, 192, 100, 1);
+}
+.skills-diagram .skill-7 {
+  width: 7em;
+  height: 7em;
+  line-height: 7em;
+  
+  background-color: rgba(214, 89, 102, .3);
+  border-color: rgba(214, 89, 102, 1);
+  color: rgba(214, 89, 102, 1);
+}
+.skills-diagram .skill-8 {
+  vertical-align: bottom;
+  
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+  background-color: rgba(46, 138, 75, .3);
+  border-color: rgba(46, 138, 75, 1);
+  color: rgba(46, 138, 75, 1);
+}
+.skills-diagram .skill-9 {
+  width: 11em;
+  height: 11em;
+  line-height: 11em;
+  
+  background-color: rgba(177, 18, 2, .3);
+  border-color: rgba(177, 18, 2, 1);
+  color: rgba(177, 18, 2, 1);
+}
+.skills-diagram .skill-10 {
+  width: 14em;
+  height: 14em;
+  line-height: 14em;
+  background-color: rgba(81, 112, 144, .3);
+  border-color: rgba(81, 112, 144, 1);
+  color: rgba(81, 112, 144, 1);
+}
+
+
+
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
+}
+
+a {
+  color: grey;
+}
+a:hover {
+  color: #ccc;
+}
+h1 {
+  color: #cecece;
+  text-shadow: 0 1px 1px #fff;
+}
+
+
+
+
+
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+
+.cd-horizontal-timeline a {
+  text-decoration: none;
+}
+.cd-horizontal-timeline {
+  opacity: 0;
+  margin: 2em auto;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+.cd-horizontal-timeline::before {
+  /* never visible - this is used in jQuery to check the current MQ */
+  content: 'mobile';
+  display: none;
+}
+.cd-horizontal-timeline.loaded {
+  /* show the timeline after events position has been set (using JavaScript) */
+  opacity: 1;
+}
+.cd-horizontal-timeline .timeline {
+  position: relative;
+  height: 100px;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.cd-horizontal-timeline .events-wrapper {
+  position: relative;
+  height: 100%;
+  margin: 0 40px;
+  overflow: hidden;
+}
+.cd-horizontal-timeline .events-wrapper::after, .cd-horizontal-timeline .events-wrapper::before {
+  /* these are used to create a shadow effect at the sides of the timeline */
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  height: 100%;
+  width: 20px;
+}
+.cd-horizontal-timeline .events-wrapper::before {
+  left: 0;
+  background-image: -webkit-linear-gradient( left , #f8f8f8, rgba(248, 248, 248, 0));
+  background-image: linear-gradient(to right, #f8f8f8, rgba(248, 248, 248, 0));
+}
+.cd-horizontal-timeline .events-wrapper::after {
+  right: 0;
+  background-image: -webkit-linear-gradient( right , #f8f8f8, rgba(248, 248, 248, 0));
+  background-image: linear-gradient(to left, #f8f8f8, rgba(248, 248, 248, 0));
+}
+.cd-horizontal-timeline .events {
+  /* this is the grey line/timeline */
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 49px;
+  height: 2px;
+  /* width will be set using JavaScript */
+  background: #dfdfdf;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+.cd-horizontal-timeline .filling-line {
+  /* this is used to create the green line filling the timeline */
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fd8204;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -ms-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+}
+.cd-horizontal-timeline .events a {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  text-align: center;
+  font-size: 1.3rem;
+  padding-bottom: 15px;
+  color: #383838;
+  /* fix bug on Safari - text flickering while timeline translates */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.cd-horizontal-timeline .events a::after {
+  /* this is used to create the event spot */
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -5px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: 2px solid #fd8204;
+  background-color: #f8f8f8;
+  -webkit-transition: background-color 0.3s, border-color 0.3s;
+  -moz-transition: background-color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.no-touch .cd-horizontal-timeline .events a:hover::after {
+  background-color: #085796;
+  border-color: #085796;
+}
+.cd-horizontal-timeline .events a.selected {
+  pointer-events: none;
+}
+.cd-horizontal-timeline .events a.selected::after {
+  background-color: #085796;
+  border-color: #085796;
+}
+@media only screen and (min-width: 1100px) {
+  .cd-horizontal-timeline {
+    margin: 6em auto;
+  }
+  .cd-horizontal-timeline::before {
+    /* never visible - this is used in jQuery to check the current MQ */
+    content: 'desktop';
+  }
+}
+
+.cd-timeline-navigation a {
+  /* these are the left/right arrows to navigate the timeline */
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  border: 2px solid #dfdfdf;
+  color: #dfdfdf;
+  /* replace text with an icon */
+  overflow: hidden;
+  color: transparent;
+  text-indent: 100%;
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s;
+  -moz-transition: border-color 0.3s;
+  transition: border-color 0.3s;
+}
+.cd-timeline-navigation a:hover {
+  border: 2px solid #005695;
+  color: #005695;
+}
+
+.cd-timeline-navigation a.prev::before {
+  content:  "\f053";
+  font-family: FontAwesome;
+  color: #ccc;
+  font-size: 1.4rem;
+  display: block;
+  position:absolute;
+  top: 9px;
+  left: -22px;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.cd-timeline-navigation a.next::before {
+  content:  "\f054";
+  font-family: FontAwesome;
+  font-size: 1.4rem;
+  display: block;
+  position:absolute;
+  top: 9px;
+  left: -18px;
+  z-index: 10000;
+  color: #ccc;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.cd-timeline-navigation a:hover:before {
+  color: #005695;
+}
+
+
+.cd-timeline-navigation a.next {
+  right: 0;
+}
+
+
+.no-touch .cd-timeline-navigation a:hover {
+  border-color: #7b9d6f;
+}
+.cd-timeline-navigation a.inactive {
+  cursor: not-allowed;
+}
+.cd-timeline-navigation a.inactive::after {
+  background-position: 0 -16px;
+}
+.no-touch .cd-timeline-navigation a.inactive:hover {
+  border-color: #dfdfdf;
+}
+
+.cd-horizontal-timeline .events-content {
+  position: relative;
+  width: 100%;
+  margin: 2em 0;
+  overflow: hidden;
+  -webkit-transition: height 0.4s;
+  -moz-transition: height 0.4s;
+  transition: height 0.4s;
+}
+.cd-horizontal-timeline .events-content li {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+  padding: 0 5%;
+  opacity: 0;
+  -webkit-animation-duration: 0.4s;
+  -moz-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+.cd-horizontal-timeline .events-content li.selected {
+  /* visible event content */
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+.cd-horizontal-timeline .events-content li.enter-right, .cd-horizontal-timeline .events-content li.leave-right {
+  -webkit-animation-name: cd-enter-right;
+  -moz-animation-name: cd-enter-right;
+  animation-name: cd-enter-right;
+}
+.cd-horizontal-timeline .events-content li.enter-left, .cd-horizontal-timeline .events-content li.leave-left {
+  -webkit-animation-name: cd-enter-left;
+  -moz-animation-name: cd-enter-left;
+  animation-name: cd-enter-left;
+}
+.cd-horizontal-timeline .events-content li.leave-right, .cd-horizontal-timeline .events-content li.leave-left {
+  -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+  animation-direction: reverse;
+}
+.cd-horizontal-timeline .events-content li > * {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.cd-horizontal-timeline .events-content h2 {
+  color: #005695;
+  font-weight: bold;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.cd-horizontal-timeline .events-content em {
+  display: block;
+  font-style: italic;
+  margin: 10px auto;
+}
+.cd-horizontal-timeline .events-content em::before {
+  content: '- ';
+}
+.cd-horizontal-timeline .events-content p {
+  font-size: 1.4rem;
+  color: #959595;
+}
+.cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
+  line-height: 1.6;
+}
+.cd-horizontal-timeline .events-content p {
+  display: block;
+  margin-bottom: 15px;
+}
+@media only screen and (min-width: 768px) {
+  .cd-horizontal-timeline .events-content h2 {
+    font-size: 2.6rem;
+    color: #005695;
+  }
+  .cd-horizontal-timeline .events-content em {
+    font-size: 2rem;
+  }
+  .cd-horizontal-timeline .events-content p {
+    font-size: 1.8rem;
+  }
+}
+
+@-webkit-keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+  }
+}
+@-moz-keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0%);
+  }
+}
+@keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+  }
+}
+@-moz-keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0%);
+  }
+}
+@keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
